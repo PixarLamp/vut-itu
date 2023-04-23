@@ -1,0 +1,145 @@
+/* Autori: Zuzana Hrkľová, Jakub Vaňo */
+
+.Board7{
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board8{
+    display: grid;
+    grid-template-columns: repeat(8, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board9{
+    display: grid;
+    grid-template-columns: repeat(9, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board10{
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board11{
+    display: grid;
+    grid-template-columns: repeat(11, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board12{
+    display: grid;
+    grid-template-columns: repeat(12, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board13{
+    display: grid;
+    grid-template-columns: repeat(13, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board14{
+    display: grid;
+    grid-template-columns: repeat(14, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Board15{
+    display: grid;
+    grid-template-columns: repeat(15, 30px);
+    grid-gap: 0;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    float:left;
+    margin-left: 40px
+}
+.Tile{
+    display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(77, 157, 194);
+  background: #ebedf1;
+  box-sizing: border-box;
+}
+.TileMiss{
+    display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(77, 157, 194);
+  box-sizing: border-box;
+  background: rgb(77, 157, 194);
+  /*color: black;*/
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Open Sans';
+  vertical-align: center;
+}
+.TileHit{
+    display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #f30404;
+  background: #f30404;
+  box-sizing: border-box;
+}
+.Ship1{
+    width: 30px;
+    height: 25px;
+    position: relative;
+    z-index: 5;
+}
+.Ship2{
+    width: 60px;
+    height: 30px;
+    position: relative;
+    z-index: 5;
+}
+.Ship3{
+    width: 90px;
+    height: 30px;
+    position: relative;
+    z-index: 5;
+}
+.Ship4{
+    width: 120px;
+    height: 30px;
+    position: relative;
+    z-index: 5;
+}

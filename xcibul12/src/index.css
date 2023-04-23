@@ -1,0 +1,190 @@
+/* Autor: Kateřina Cibulcová (xcibul12) */
+
+body {
+  background-image: url("dark-paths.png");
+  position: relative;
+  margin: 0;
+}
+
+
+
+.img-container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .image {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
+
+.start {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Open Sans';
+  width: 200px;
+}
+
+
+h1 {
+  color:#ebedf1;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Open Sans';
+  margin: auto;
+  padding: 20px;
+}
+
+h1.you {
+  color:#ebedf1;
+  text-align: center;
+  font-size: larger;
+  font-family: 'Open Sans';
+  
+  align-content: center;
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+
+h1.enemy {
+  color:#ebedf1;
+  text-align: center;
+  font-size: larger;
+  font-family: 'Open Sans';
+
+  align-content: center;
+  width: 50%;
+  
+  padding: 5px;
+}
+
+
+
+.gameBoard {
+  display:inline;
+}
+
+.container {
+  margin-left: 5rem;
+  padding: 5px;
+}
+
+.customize-container {
+  margin: 0 auto;
+  display: grid;
+  width: 50%;
+  align-items: center;
+  grid-auto-flow: column;
+  padding: 5px
+  
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-gap: 0;
+  vertical-align: middle;
+  float:left;
+  justify-content: center;
+  width: 50%;
+  margin-left: 10%; 
+
+}
+
+.enemyboard {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-gap: 0;
+  vertical-align: middle;
+  justify-content: center;
+  padding-left: 10px;
+  float:left;
+  margin-left: 40px
+}
+
+
+p {
+  text-align: left;
+  display: inline;
+  color:#ebedf1;
+  font-family: 'Open Sans';
+}
+
+
+.empty_square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(77, 157, 194);
+  background: #dae8fc;
+  box-sizing: border-box;
+}
+
+.ship_square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(77, 157, 194);
+  background: #000000;
+  box-sizing: border-box;
+}
+
+.enemy_square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #f30404;
+  background: #f30404;
+  box-sizing: border-box;
+}
+
+.miss_square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(77, 157, 194);
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: rgb(77, 157, 194);
+} 
+
+
+* {
+  box-sizing: border-box;
+}
+

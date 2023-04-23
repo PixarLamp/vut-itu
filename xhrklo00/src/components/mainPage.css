@@ -1,0 +1,45 @@
+.MainPage {
+    text-align: center;
+}
+.MainPage_pic_mpg {
+    height: 60vmin;    
+}
+
+.MainPage_title{
+    height: 100px;
+    width: 270px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.9rem;
+}
+
+.MainPage_header{
+    background-color: #282c34;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.MainPage_button{
+    background-color: #20A6B9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(5px + 2vmin);
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0.8rem;
+}

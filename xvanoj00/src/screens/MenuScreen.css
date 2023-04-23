@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Fira Sans", sans-serif;
+}
+
+main {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-image: "url(/background.png)"; */
+  /* background-color: #182e3e; */
+}
+
+.sound {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.tutorial {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  justify-items: right;
+  justify-self: right;
+  align-items: flex-end;
+  left: 90%;
+}
+
+.settings {
+  display: flex;
+  height: 300px;
+  width: 300px;
+}

@@ -1,0 +1,11 @@
+.set {
+  flex-direction: column;
+  margin: 2;
+  text-align: justify;
+}
+
+.setin {
+  flex-direction: column;
+  margin: 2;
+  text-align: justify;
+}
