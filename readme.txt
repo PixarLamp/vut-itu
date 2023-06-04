@@ -1,3 +1,5 @@
+Webová aplikácia určená na hranie stolnej hry loďky (Battleships)
+
 Spustenie aplikacie:
 
 Jakub Vano(xvanoj00):
